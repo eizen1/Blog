@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap');
+
+section {
+  background-color: #290742;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90vh;
+  border-bottom: 4px solid #4fff4b;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  gap: 3rem;
+}
+nav a {
+  text-decoration: none;
+  margin-left: 2rem;
+  font-family: 'Roboto', sans-serif;
+  color: antiquewhite;
+}
+nav a:first-child {
+  border-left: 3px solid #4fff4b;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
+input {
+  background-color: #170027;
+  position: relative;
+  margin-right: 3rem;
+  height: 2rem;
+  width: 14rem;
+  padding: center;
+  color: antiquewhite;
+  border: 1px solid white;
+  border-left: 4px solid #4fff4b;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px #000;
+}
+button {
+  position: absolute;
+  right: 6.1rem;
+  background-color: #9e6dc2;
+  width: 4rem;
+  top: 2.3rem;
+}
+main {
+  display: flex;
+  margin: 5rem 5rem 5rem 4rem;
+  gap: 5rem;
+}
+main h2 {
+  color: #9e6dc2;
+  font-size: 2.5rem;
+}
+main p {
+  color: antiquewhite;
+}
+.content a {
+  text-decoration: none;
+  color: #9e6dc2;
+}
+.content svg {
+  position: absolute;
+  left: 10%;
+}
+aside {
+  margin-top: 40rem;
+  display: flex;
+  margin-left: 4rem;
+}
+article {
+  display: flex;
+  margin-top: 4rem;
+  margin-left: 4rem;
+  gap: 3rem;
+}
